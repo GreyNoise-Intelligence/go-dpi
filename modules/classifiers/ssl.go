@@ -2,9 +2,10 @@ package classifiers
 
 import (
 	"encoding/binary"
+
+	"github.com/GreyNoise-Intelligence/go-dpi/types"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
-	"github.com/mushorg/go-dpi/types"
 )
 
 // SSLClassifier struct

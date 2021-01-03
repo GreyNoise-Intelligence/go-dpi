@@ -4,9 +4,9 @@ import (
 	"net"
 	"testing"
 
+	"github.com/GreyNoise-Intelligence/go-dpi/utils"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
-	"github.com/mushorg/go-dpi/utils"
 )
 
 func TestNewFlow(t *testing.T) {

@@ -2,10 +2,11 @@ package classifiers
 
 import (
 	"encoding/binary"
+	"strings"
+
+	"github.com/GreyNoise-Intelligence/go-dpi/types"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
-	"github.com/mushorg/go-dpi/types"
-	"strings"
 )
 
 // RDPClassifier struct

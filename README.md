@@ -56,9 +56,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/mushorg/go-dpi"
-	"github.com/mushorg/go-dpi/types"
-	"github.com/mushorg/go-dpi/utils"
+	"github.com/GreyNoise-Intelligence/go-dpi"
+	"github.com/GreyNoise-Intelligence/go-dpi/types"
+	"github.com/GreyNoise-Intelligence/go-dpi/utils"
 )
 
 func main() {

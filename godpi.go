@@ -1,20 +1,17 @@
 // Package godpi provides the main API interface for utilizing the go-dpi library.
-package godpi
+package go_dpi
 
 import (
-	"github.com/google/gopacket"
-	"github.com/mushorg/go-dpi/modules/classifiers"
-	"github.com/mushorg/go-dpi/modules/ml"
-	"github.com/mushorg/go-dpi/modules/wrappers"
-	"github.com/mushorg/go-dpi/types"
 	"time"
+
+	"github.com/GreyNoise-Intelligence/go-dpi/modules/classifiers"
+	"github.com/GreyNoise-Intelligence/go-dpi/types"
+	"github.com/google/gopacket"
 )
 
 var activatedModules []types.Module
 var moduleList = []types.Module{
 	classifiers.NewClassifierModule(),
-	wrappers.NewWrapperModule(),
-	ml.NewLinearSVCModule(),
 }
 var cacheExpiration = 5 * time.Minute
 

@@ -1,11 +1,12 @@
 package classifiers
 
 import (
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
-	"github.com/mushorg/go-dpi/types"
 	"regexp"
 	"strings"
+
+	"github.com/GreyNoise-Intelligence/go-dpi/types"
+	"github.com/google/gopacket"
+	"github.com/google/gopacket/layers"
 )
 
 // HTTPClassifier struct
